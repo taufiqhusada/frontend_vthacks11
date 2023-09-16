@@ -39,37 +39,23 @@
         </header>
         <!-- Section-->
         <section class="py-5">
-            <div class="container px-4 px-lg-5 mt-5">
+            <div class="container px-4 px-lg-5 mt-5 justify-content-center text-center" id="skillPage">
                 <div class="card h-100">
                     <div class="card-body">
                         <h5 class="card-title justify-content-center text-center">Input job description</h5>
-                        <form>
+                        <form id="formSubmitJobDesc">
                             <div class="form-group justify-content-center text-center">
                                 <label for="inputJobDesc"></label>
                                 <textarea class="form-control" id="inputJobDesc" rows="4"></textarea>
                                 <br>
-                                <button type="submit" class="btn btn-dark mt-auto" onclick="getSkillList()">Submit</button>
+                                <button  id="buttonSubmitJobDesc" class="btn btn-dark mt-auto">Submit</button>
                             </div>
                         </form>
                     </div>
                 </div>
                 <br>
-                <!-- <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                    <div class="col mb-5">
-                        <div class="card h-100">
-                            <div class="card-body p-4">
-                                <div class="text-center">
-                                    <h5 class="fw-bolder">C++</h5>
-                                    Short desctiption about C++
-                                </div>
-                            </div>
-                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Start Learn</a></div>
-                            </div>
-                        </div>
-                    </div>
-                   
-                </div> -->
+                    
+                <div id="loaderPlaceholder" class="justify-content-center text-center center"></div>
             </div>
         </section>
         <!-- Footer-->
@@ -83,5 +69,4 @@
         <script src="js/scripts.js"></script>
     </body>
 
-    <script src="js/scripts.js"></script>
 </html>
