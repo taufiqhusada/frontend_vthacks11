@@ -47,7 +47,7 @@ function getSkillList(event){
                                             </div>
                                         </div>
                                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Start Learn</a></div>
+                                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="video.html?skill=${output[i]}&idx=0">Start Learn</a></div>
                                         </div>
                                     </div>
                                 </div>
